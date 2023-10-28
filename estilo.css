@@ -1,0 +1,125 @@
+:root{
+  --margen: 15px;
+}
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.ancho{
+  max-width: 1200px;
+  margin: auto;
+}
+
+header{
+  text-align: center;
+  padding: 15px;
+}
+
+.logo{
+  width: 250px;
+}
+
+.logo img{
+  width: 100%;
+}
+
+/* nav{
+  border: 3px blue solid;
+} */
+
+.contenedormenu{
+  list-style: none;
+  margin: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.contenedormenu a{
+  padding: 10px 30px;
+  border: 2px #28567a solid;
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+  color: #28567a;
+  transition: all 0.5s;
+}
+
+.contenedormenu a:hover{
+  background-color: #28567a;
+  color: white;
+}
+
+.contenedorinfo{
+  padding: 15px;
+  padding: var(--margen);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.contenedorinfo figure{
+  max-width: 500px;
+  padding: var(--margen);
+}
+
+.contenedorinfo figure img{
+  width: 100%;
+}
+
+.contenedorinfo article{
+  max-width: 500px;
+  padding: var(--margen);
+}
+
+h1{
+  color: #800000;
+}
+
+h3{
+  color: goldenrod;
+  padding: var(--margen) 0px;
+}
+
+.btn_rojo{
+  padding: 15px 30px;
+  background-color: #800000;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin: 15px 0px;
+  border-radius: 60px;
+}
+
+#parrafo{
+  margin-top: 15px;
+}
+
+footer{
+  background-color: rgb(15, 15, 68);
+  padding: 50px;
+  text-align: center;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
+}
+
+#iconomenu{
+  border: 2px rgb(15, 15, 68) solid;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(15, 15, 68);
+  display: none;
+}

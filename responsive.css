@@ -1,0 +1,32 @@
+@media screen and (max-width: 480px) {
+  /* body{
+    background-image: url(Imagenes/matrix.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+}
+
+@media screen and (max-width: 750px) {
+  #iconomenu{
+    display: inline-block;
+    margin: 15px;
+  }
+  .contenedormenu{
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  display: none;
+}
+
+.contenedormenu li{
+  width: 100%;
+}
+.contenedormenu a{
+  padding: 10px 30px;
+  border: 0;
+  border-bottom: 2px #28567a dotted;
+  border-radius: 0;
+  display: block;
+}
+}
